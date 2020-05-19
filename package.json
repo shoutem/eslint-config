@@ -1,0 +1,7 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "Shoutem JS ESlint config",
+  "author": "Shoutem",
+  "license": "MIT"
+}
