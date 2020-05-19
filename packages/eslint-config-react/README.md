@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/@shoutem/eslint-config-react.svg)](http://badge.fury.io/js/@shoutem/eslint-config-react)
 
-This package provides Shoutem's base JS .eslintrc (without React plugins) as an extensible shared config.
+This package provides Shoutem's react JS .eslintrc (with React plugins) as an extensible shared config.
 
 ## Usage
 

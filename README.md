@@ -2,8 +2,8 @@
 
 This repository provides two eslint packages:
 
-1. eslint-config-web used for web applications
-2. eslint-config-server used for server applications
+1. eslint-config-base
+2. eslint-config-react
 
 ## Automatically Fix Code in VS Code
 
