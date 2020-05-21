@@ -1,9 +1,10 @@
 module.exports = {
   extends: [
     "airbnb-base",
-    "prettier",
     // custom rules
+    require.resolve("./rules/custom"),
     require.resolve("./rules/prettier"),
+    "prettier",
   ],
   parserOptions: {
     ecmaVersion: 2018,

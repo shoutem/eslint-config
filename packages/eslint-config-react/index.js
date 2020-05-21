@@ -3,7 +3,7 @@ module.exports = {
     "airbnb",
     "@shoutem/base",
     // custom rules
-    // require.resolve("./rules/prettier"),
+    require.resolve("./rules/custom"),
   ],
   parserOptions: {
     ecmaVersion: 2018,
