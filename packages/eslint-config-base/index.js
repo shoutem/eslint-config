@@ -4,7 +4,7 @@ module.exports = {
     // custom rules
     require.resolve("./rules/custom"),
     require.resolve("./rules/prettier"),
-    "prettier",
+    "prettier", // must be on the end!
   ],
   parserOptions: {
     ecmaVersion: 2018,
