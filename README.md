@@ -2,8 +2,8 @@
 
 This repository provides two eslint packages:
 
-1. eslint-config-base
-2. eslint-config-react
+1. [eslint-config-base](https://github.com/shoutem/eslint-config/tree/develop/packages/eslint-config-base)
+2. [eslint-config-react](https://github.com/shoutem/eslint-config/tree/develop/packages/eslint-config-react)
 
 ## Automatically Fix Code in VS Code
 
