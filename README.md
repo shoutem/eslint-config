@@ -16,3 +16,9 @@ For a good developer experience, it's useful to setup your editor to automatical
   },
 }
 ```
+
+File is located in:
+
+```sh
+.vscode/settings.json
+```
