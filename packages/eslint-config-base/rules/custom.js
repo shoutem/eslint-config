@@ -32,6 +32,7 @@ module.exports = {
     "import/no-unresolved": 0,
     "func-names": 0,
     "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
     "comma-dangle": [
       "error",
       {
