@@ -6,7 +6,7 @@ This package provides Shoutem's react JS .eslintrc (with React plugins) as an ex
 
 ## Usage
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-prettier`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react` and `prettier`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-prettier`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `prettier`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
