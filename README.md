@@ -1,9 +1,10 @@
 # Shoutem JavaScript Style Guide
 
-This repository provides two eslint packages:
+This repository provides three eslint packages:
 
 1. [eslint-config-base](https://github.com/shoutem/eslint-config/tree/develop/packages/eslint-config-base)
 2. [eslint-config-react](https://github.com/shoutem/eslint-config/tree/develop/packages/eslint-config-react)
+3. [eslint-config-react-native](https://github.com/shoutem/eslint-config/tree/develop/packages/eslint-config-react-native)
 
 ## Automatically Fix Code in VS Code
 
