@@ -1,4 +1,4 @@
-# @shoutem/eslint-config
+# @shoutem/eslint-config-react
 
 [![npm version](https://badge.fury.io/js/@shoutem%2Feslint-config-react.svg)](https://badge.fury.io/js/@shoutem%2Feslint-config-react)
 

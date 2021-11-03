@@ -1,4 +1,4 @@
-# @shoutem/eslint-config
+# @shoutem/eslint-config-react-native
 
 [![npm version](https://badge.fury.io/js/@shoutem%2Feslint-config-react-native.svg)](https://badge.fury.io/js/@shoutem%2Feslint-config-react-native)
 
@@ -11,7 +11,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 1. Install the correct versions of each package, which are listed by the command:
 
 ```sh
-npm info "@shoutem/eslint-config-react@latest" peerDependencies
+npm info "@shoutem/eslint-config-react-native@latest" peerDependencies
 ```
 
 If using **npm 5+**, use this shortcut
