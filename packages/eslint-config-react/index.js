@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     "airbnb",
+    "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "@shoutem/base",
     // custom rules
@@ -10,5 +11,10 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
+  plugins: [
+    "react",
+    "import",
+    "simple-import-sort"
+  ],
   rules: {},
 };
