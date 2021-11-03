@@ -9,7 +9,7 @@ module.exports = {
       {
         "groups": [
           [
-             // Packages. `react` related packages come first.
+            // Packages. `react` related packages come first.
             "^react",
             // Internal packages.
             "^(@|@shoutem)(\/.*|$)",
