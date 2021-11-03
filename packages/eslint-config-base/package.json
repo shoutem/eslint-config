@@ -1,12 +1,12 @@
 {
   "name": "@shoutem/eslint-config-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shoutem's base JS ESlint config",
   "main": "index.js",
   "author": "Shoutem",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb-base": "^3.0.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^6.10.0"
   },
   "peerDependencies": {
