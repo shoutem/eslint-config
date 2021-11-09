@@ -3,7 +3,7 @@ module.exports = {
     "airbnb",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "@shoutem/base",
+    "@shoutem/react",
     // custom rules
     require.resolve("./rules/custom"),
   ],
@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     "react",
+    "react-native",
     "import",
     "simple-import-sort"
   ],
