@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@shoutem/eslint-config-base": "^1.0.1",
-    "eslint-config-airbnb": "^9.0.1"
+    "eslint-config-airbnb": "18.2.1"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
