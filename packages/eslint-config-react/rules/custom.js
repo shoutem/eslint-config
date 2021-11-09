@@ -1,6 +1,7 @@
 module.exports = {
   rules: {
     "jsx-a11y/img-has-alt": 0,
+    "no-use-before-define": 0,
     "react/no-did-update-set-state": "off",
     "react/require-default-props": 2,
     "simple-import-sort/exports": "error",
