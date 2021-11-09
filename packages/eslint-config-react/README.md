@@ -1,12 +1,12 @@
-# @shoutem/eslint-config
+# @shoutem/eslint-config-react
 
-[![npm version](https://badge.fury.io/js/@shoutem/eslint-config-react.svg)](http://badge.fury.io/js/@shoutem/eslint-config-react)
+[![npm version](https://badge.fury.io/js/@shoutem%2Feslint-config-react.svg)](https://badge.fury.io/js/@shoutem%2Feslint-config-react)
 
-This package provides Shoutem's react JS .eslintrc (with React plugins) as an extensible shared config.
+This package provides Shoutem's React JS .eslintrc (with React plugins) as an extensible shared config.
 
 ## Usage
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-prettier`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `prettier`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-prettier`, `eslint-plugin-import`, `eslint-plugin-simple-import-sort`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `prettier`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
