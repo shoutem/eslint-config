@@ -2,8 +2,17 @@ module.exports = {
   rules: {
     "jsx-a11y/img-has-alt": 0,
     "no-use-before-define": 0,
+    "import/order": "off",
+    "import/no-extraneous-dependencies": 0,
     "react/no-did-update-set-state": "off",
     "react/require-default-props": 2,
+    "react/forbid-prop-types": 0,
+    "react/static-property-placement": 0,
+    "react/sort-comp": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }],
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-no-bind": 0,
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",
@@ -12,8 +21,11 @@ module.exports = {
           [
             // Packages. `react` related packages come first.
             "^react",
+            // Packages
+            "^(?!(shoutem).*)|(@?\\w)$",
             // Internal packages.
-            "^(@|@shoutem)(\/.*|$)",
+            "^(@+shoutem)(\/.*|$)",
+            "^(shoutem)(\.*|$)",
             // Side effect imports.
             "^\\u0000",
             // Parent imports. Put `..` last.
