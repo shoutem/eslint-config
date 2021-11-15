@@ -1,8 +1,10 @@
 module.exports = {
   rules: {
     "jsx-a11y/img-has-alt": 0,
+    "jsx-a11y/control-has-associated-label": 0,
     "no-use-before-define": 0,
     "import/order": "off",
+    "import/extensions": 0,
     "import/no-extraneous-dependencies": 0,
     "react/no-did-update-set-state": "off",
     "react/require-default-props": 2,
@@ -13,6 +15,13 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-no-bind": 0,
+    "react/sort-prop-types": [1, {
+      "callbacksLast": true,
+      "ignoreCase": true,
+      "requiredFirst": true,
+      "sortShapeProp": true,
+      "noSortAlphabetically": false
+    }],
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",
