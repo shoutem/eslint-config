@@ -11,7 +11,7 @@ module.exports = {
     "react/forbid-prop-types": 0,
     "react/static-property-placement": 0,
     "react/sort-comp": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".js"] }],
     "react/jsx-props-no-spreading": 0,
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-no-bind": 0,
