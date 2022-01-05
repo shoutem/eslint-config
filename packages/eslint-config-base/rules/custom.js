@@ -18,6 +18,13 @@ module.exports = {
     "no-unused-expressions": 0,
     "no-param-reassign": [2, { props: false }],
     "no-unused-vars": [2, { argsIgnorePattern: "next" }],
+    "no-restricted-syntax": 0,
+    "no-continue": 0,
+    "no-await-in-loop": 0,
+    "no-restricted-globals": 0,
+    "no-buffer-constructor": 0,
+    "max-classes-per-file": 0,
+    "prefer-destructuring": 0,
     "no-shadow": 0,
     "no-plusplus": "off",
     "no-implicit-coercion": [

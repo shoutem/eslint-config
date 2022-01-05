@@ -1,6 +1,6 @@
 {
   "name": "@shoutem/eslint-config-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shoutem's base JS ESlint config",
   "main": "index.js",
   "author": "Shoutem",
