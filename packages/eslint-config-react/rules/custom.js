@@ -10,6 +10,7 @@ module.exports = {
     "import/order": "off",
     "import/extensions": 0,
     "import/no-extraneous-dependencies": 0,
+    "prefer-destructuring": 2,
     "react/no-did-update-set-state": "off",
     "react/require-default-props": 2,
     "react/forbid-prop-types": 0,
