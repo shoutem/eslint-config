@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     "jsx-a11y/img-has-alt": 0,
     "jsx-a11y/control-has-associated-label": 0,
+    "jsx-a11y/label-has-associated-control": 0,
     "no-use-before-define": 0,
     "no-restricted-globals": 0,
     "prefer-const": ["warn", {
