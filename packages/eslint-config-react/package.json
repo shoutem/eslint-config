@@ -1,6 +1,6 @@
 {
   "name": "@shoutem/eslint-config-react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shoutem's React JS ESlint config",
   "main": "index.js",
   "author": "Shoutem",

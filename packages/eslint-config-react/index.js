@@ -17,4 +17,7 @@ module.exports = {
     "simple-import-sort"
   ],
   rules: {},
+  globals: {
+    "fetch": "readonly"
+  },
 };
