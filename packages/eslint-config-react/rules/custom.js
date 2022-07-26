@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    "camelcase": ["error", { allow: ["^UNSAFE_"] }],
     "jsx-a11y/img-has-alt": 0,
     "jsx-a11y/control-has-associated-label": 0,
     "jsx-a11y/label-has-associated-control": 0,
@@ -15,7 +16,7 @@ module.exports = {
     "react/no-did-update-set-state": "off",
     "react/require-default-props": 2,
     "react/forbid-prop-types": 0,
-    "react/static-property-placement": 0,
+    "react/static-property-placement": ["warn", "property assignment"],
     "react/sort-comp": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".js"] }],
     "react/jsx-props-no-spreading": 0,
