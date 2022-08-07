@@ -1,6 +1,6 @@
 {
   "name": "@shoutem/eslint-config-react-native",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shoutem's React Native JS ESlint config",
   "main": "index.js",
   "author": "Shoutem",
