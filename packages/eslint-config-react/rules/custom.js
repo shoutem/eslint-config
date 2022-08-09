@@ -18,6 +18,7 @@ module.exports = {
     "react/forbid-prop-types": 0,
     "react/static-property-placement": ["warn", "property assignment"],
     "react/sort-comp": 0,
+    "react/no-multi-comp": [2, { "ignoreStateless": false }],
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".js"] }],
     "react/jsx-props-no-spreading": 0,
     "react/jsx-one-expression-per-line": 0,
