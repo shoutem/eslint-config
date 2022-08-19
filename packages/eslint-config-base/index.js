@@ -12,4 +12,5 @@ module.exports = {
   },
   plugins: ["prettier"],
   rules: {},
+  // comment for testing
 };
