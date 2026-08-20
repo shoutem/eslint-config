@@ -14,7 +14,13 @@ module.exports = {
     "import/no-extraneous-dependencies": 0,
     "prefer-destructuring": 2,
     "react/no-did-update-set-state": "off",
-    "react/require-default-props": 2,
+    // React 19 removed propTypes/defaultProps runtime validation — propTypes
+    // are inert, so none of the propTypes-related rules are enforced anymore.
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/sort-prop-types": "off",
+    "react/no-unused-prop-types": "off",
+    "react/default-props-match-prop-types": "off",
     "react/forbid-prop-types": 0,
     "react/static-property-placement": ["warn", "property assignment"],
     "react/sort-comp": 0,
@@ -23,13 +29,6 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-no-bind": 0,
-    "react/sort-prop-types": [1, {
-      "callbacksLast": true,
-      "ignoreCase": true,
-      "requiredFirst": true,
-      "sortShapeProp": true,
-      "noSortAlphabetically": false
-    }],
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",
