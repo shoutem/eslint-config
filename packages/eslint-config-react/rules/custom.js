@@ -22,7 +22,7 @@ module.exports = {
     "react/no-unused-prop-types": "off",
     "react/default-props-match-prop-types": "off",
     "react/forbid-prop-types": 0,
-    "react/static-property-placement": ["warn", "property assignment"],
+    "react/static-property-placement": "off",
     "react/sort-comp": 0,
     "react/no-multi-comp": [2, { "ignoreStateless": false }],
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".js"] }],
