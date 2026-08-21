@@ -1,8 +1,7 @@
 module.exports = {
+  // @shoutem/react is self-contained (airbnb, react, react-hooks, base,
+  // prettier) — only the React Native additions live here.
   extends: [
-    "airbnb",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "@shoutem/react",
     // custom rules
     require.resolve("./rules/custom"),
@@ -11,11 +10,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: [
-    "react",
-    "react-native",
-    "import",
-    "simple-import-sort"
-  ],
+  plugins: ["react-native"],
   rules: {},
 };
