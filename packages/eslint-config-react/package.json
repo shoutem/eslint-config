@@ -1,12 +1,12 @@
 {
   "name": "@shoutem/eslint-config-react",
-  "version": "1.1.0-rc.2",
+  "version": "1.1.0",
   "description": "Shoutem's React JS ESlint config",
   "main": "index.js",
   "author": "Shoutem",
   "license": "MIT",
   "dependencies": {
-    "@shoutem/eslint-config-base": "^1.1.0-rc.0",
+    "@shoutem/eslint-config-base": "^1.1.0",
     "eslint-config-airbnb": "18.2.1"
   },
   "peerDependencies": {
